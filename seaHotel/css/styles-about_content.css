@@ -1,0 +1,62 @@
+.content-about-company {
+    display: flex;
+    width: 100%;
+    margin: 72px 0;
+}
+
+.navigation-about-company {
+    max-width: 20%;
+    margin: 75px;
+}
+
+.navigation-about-company__title {
+    color: #694390;
+    font-size: 35px;
+    font-family: 'Krub', sans-serif;
+}
+
+.navigation-about-company__header {
+    margin: 10px 0 5px 10px;
+    color: #44413cfc;
+}
+
+.navigation-about-company__block {
+    font-size: 18px;
+}
+
+.navigation-about-company__list {
+    padding-inline-start: 25px;
+    list-style-type: none;
+    margin: 0;
+}
+
+.navigation-about-company__item {
+    letter-spacing: .5px;
+}
+
+.navigation-about-company__link {
+    color: #145f8a;
+}
+
+.main-container {
+    max-width: 80%;
+    margin: 130px 0;
+}
+
+.main-container__block-menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-container__block-section {
+    display: inherit;
+    max-width: 50%;
+}
+
+.main-container__block-section__image_size {
+    width: 100px;
+}
+
+.main-container__block-section__info {
+    margin: 25px 0;
+}

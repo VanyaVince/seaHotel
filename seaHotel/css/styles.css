@@ -1,0 +1,197 @@
+body {
+    /* background-repeat: no-repeat;
+     background-position: center;
+     background-image: url(http://1000logos.net/wp-content/uploads/2017/02/iPhone_logo.png);
+     background-size: 1000px;*/
+    margin: 0;
+}
+
+.header {
+    height: 83px;
+    display: inline-flex;
+    background: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-shadow: -2px 1px 18px #888888;
+    z-index: 100;
+}
+
+.header-title {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 70px;
+    color: #2f2f6ba6;
+    font-family: 'Krub', sans-serif;
+}
+
+.header-title_shadow {
+    text-shadow: 0 2px 5px #ced0ff;
+}
+
+.logo__image:hover { /*разобраться*/
+    cursor: url("../img/123.png"), pointer;
+}
+
+.top-menu {
+    position: absolute;
+    right: 15px;
+    margin-top: 10px;
+}
+
+.top-menu__list {
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    list-style-type: none
+}
+
+.top-menu__link {
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #948bdfd4;
+
+}
+
+.top-menu__item {
+    padding: 10px;
+    margin: 5px;
+    background: #cedeef73;
+    border-radius: 10px;
+    border: 2px solid #122980b3;
+    font-family: 'Krub', sans-serif;
+}
+
+.top-menu__item:hover { /*псевдо класс*/
+    background: white;
+}
+
+.test:active { /*псевдо класс*/
+    color: white; /* изменяет border*/
+    font-weight: 600;
+    border: none;
+}
+
+.logo {
+    height: 70px;
+}
+
+.logo__image {
+    height: 70px;
+}
+
+.content {
+    /*height: 1300px;*/
+    width: 100%;
+    margin-top: 120px;
+}
+
+.content-container {
+    width: 75%;
+    margin: 150px auto;
+    box-shadow: 3px 4px 9px #888888;
+}
+
+.content__info {
+    width: 80%;
+    margin: 20px auto;
+    font-family: 'Krub', sans-serif;
+    text-align: center;
+}
+
+.gallery-line {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.gallery-line__item {
+    max-width: 32%;
+    margin: 10px;
+}
+
+.gallery-line__image {
+    width: 100%;
+}
+
+.footer {
+    /*position: fixed;
+    bottom: 0;*/
+    width: 100%;
+    background: #1e5f8cb8;
+}
+
+.footer-info {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-info_header-state {
+    letter-spacing: 0.4px;
+    line-height: 22px;
+    font-size: 29px;
+    color: white;
+}
+
+.footer-info_content-state {
+    letter-spacing: 0.4px;
+    line-height: 22px;
+    font-size: 15px;
+    color: white;
+}
+
+.footer-info__service-info {
+    margin-right: 55px;
+}
+
+.footer-info__categories__list {
+    padding: 0;
+}
+
+.footer-info__categories__list__item {
+    list-style-type: none;
+}
+
+.footer-info__about-company {
+    margin: 0 0 0 100px;
+
+}
+
+.footer-info__about-company__item {
+    list-style-type: none;
+}
+
+.footer-additional {
+    width: 100%;
+    background: #0e244621;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-additional_state-the-first-container {
+    margin: 10px 0;
+    flex-grow: 0.5;
+    text-align: center;
+}
+
+.footer-additional_state-the-second-container {
+    width: 450px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/*spriteis*/
+.icon {
+    width: 25px;
+    height: 25px;
+    float: left;
+    background: url("../img/sprite.png") no-repeat;
+}
+
+.open.icon {
+    background-position: 0 16px;
+    cursor: pointer;
+}
